@@ -46,9 +46,11 @@ const App = () => {
   return (
     <div>
       <h1>
-        Ja<span className="highlight">mmm</span>ing
+        Play<span className="highlight">My</span>List
       </h1>
       <div className="App">
+        <h2></h2>
+        <h2 align='center'>Search for songs and add them to a new Spotify playlist!</h2>
         <SearchBar onSearch={search} />
         <div className="App-playlist">
           <SearchResults searchResults={searchResults} onAdd={addTrack} />
